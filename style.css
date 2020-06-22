@@ -1,0 +1,78 @@
+html{
+    height: 100%; /* Fixes the image not covering the entire webpage */
+}
+
+body {
+    background-color: #2F3035;
+    background-image: url(images/background-adare-restaurant.jpg);
+    background-size: cover; /* Makes background image center when resizing */
+    background-repeat: no-repeat;   /* Dont repeat the background image */
+    background-position: center;
+}
+
+/* Gives the container a width and autos the margins to make it center */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    height: 118px;
+    text-align: center; /* Aligns the logo to the center */
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.338);
+    text-align: center; /* Aligns the navigation to the center */
+    padding-top: 14px;  /* Vertically aligns the nav links by adding padding to the top */
+    padding-bottom: 14px;   /* Vertically aligns the nav links by adding padding to the bottom */
+
+}
+
+nav a {
+    text-decoration: none;  /* Removes the underline on the hyperlink */
+    font-size: 12px;
+    padding-left: 10px; /* Adds 10px of space to the left of the nav links */
+    padding-right: 10px;    /* Adds 10px of space to the right of the nav links */
+}
+
+main {
+    height: 400px;
+    text-align: center; /* Aligns the content under the main tag to the center */
+    padding-top: 80px;  /* Gives 80px of space at the top before the content */
+    padding-left: 240px;    /* Gives 240px of space to the left before the content */
+    padding-right: 240px;   /* Gives 240px of space to the right before the content */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+footer p {
+    font-size: 10px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+h1 {
+    font-size: 84px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.maps {
+    padding-bottom: 50px;
+}
