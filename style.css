@@ -1,13 +1,9 @@
-html {
-    height: 100%; /* Fixes the image not covering the entire webpage */
-}
-
 body {
     background-color: #2F3035;
     background-image: url(images/background-adare-restaurant.jpg);
-    background-size: cover; /* Makes background image center when resizing */
-    background-repeat: no-repeat;   /* Dont repeat the background image */
-    background-position: center;
+    background-size: cover; /*Makes background image center when resizing*/
+    background-repeat: no-repeat;   /*Dont repeat the background image */
+    background-position: center; 
 }
 
 /* Gives the container a width and autos the margins to make it center */
